@@ -4,7 +4,7 @@ import { routes } from "./routes";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/JoshWebsite">
       <Routes>
         <Route path="/" element={<MainLayout />}>
           {routes}

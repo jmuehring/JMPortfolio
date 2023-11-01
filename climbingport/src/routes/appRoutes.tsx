@@ -35,7 +35,7 @@ const appRoutes: RouteType[] = [
     }
   },
   {
-    path: "/Outdoor Climbing",
+    path: "/outdoor-climbing",
     element: <OutdoorClimbing />,
     state: "Outdoor Climbing",
     sidebarProps: {
@@ -49,7 +49,7 @@ const appRoutes: RouteType[] = [
         state: "dashboard.index"
       },
       {
-        path: "/Outdoor Climbing/Rocklands",
+        path: "/outdoor-climbing/Rocklands",
         element: <Rocklands />,
         state: "Rocklands",
         sidebarProps: {
@@ -57,7 +57,7 @@ const appRoutes: RouteType[] = [
         },
       },
       {
-        path: "/Outdoor Climbing/NewRiverGorge",
+        path: "/outdoor-climbing/NewRiverGorge",
         element: <NewRiverGorge />,
         state: "newrivergorge",
         sidebarProps: {
@@ -65,7 +65,7 @@ const appRoutes: RouteType[] = [
         }
       },
       {
-        path: "/Outdoor Climbing/Rifle",
+        path: "/outdoor-climbing/Rifle",
         element: <Rifle />,
         state: "rifle",
         sidebarProps: {
@@ -75,7 +75,7 @@ const appRoutes: RouteType[] = [
     ]
   },
   {
-    path: "/Indoor Climbing",
+    path: "/indoor-climbing",
     element: <ComponentPageLayout />,
     state: "dropDown, finished.",
     sidebarProps: {
@@ -84,7 +84,7 @@ const appRoutes: RouteType[] = [
     },
     child: [
       {
-        path: "/Indoor Climbing/Competition",
+        path: "/indoor-climbing/Competition",
         element: <Competition />,
         state: "Competition",
         sidebarProps: {
@@ -92,7 +92,7 @@ const appRoutes: RouteType[] = [
         },
       },
       {
-        path: "/Indoor Climbing/Training",
+        path: "/indoor-climbing/Training",
         element: <Training />,
         state: "training",
         sidebarProps: {
@@ -120,7 +120,7 @@ const appRoutes: RouteType[] = [
     }
   },
   {
-    path: "/Contact Me",
+    path: "/contact-me",
     element: <ContactMe />,
     state: "contact me",
     sidebarProps: {
