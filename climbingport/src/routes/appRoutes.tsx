@@ -1,5 +1,4 @@
 import OutdoorClimbing from "../pages/Outdoor Climbing/OutdoorClimbing";
-import HomePage from "../pages/home/HomePage";
 import { RouteType } from "./config";
 import Rocklands from "../pages/Outdoor Climbing/Rocklands";
 import DashboardIndex from "../pages/Outdoor Climbing/DashboardIndex";
@@ -22,11 +21,11 @@ import WorkIcon from '@mui/icons-material/Work';
 const appRoutes: RouteType[] = [
   {
     index: true,
-    element: <HomePage />,
-    state: "home"
+    element: <AboutMe />,
+    state: "aboutMe"
   },
   {
-    path: "/installation",
+    path: "/about-me",
     element: <AboutMe />,
     state: "AboutMe",
     sidebarProps: {

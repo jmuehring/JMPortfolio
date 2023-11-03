@@ -16,7 +16,7 @@ const Topbar = () => {
     >
       <Toolbar>
         <Typography variant="h6">
-          Joshua Muehring
+          JM Portfolio
         </Typography>
       </Toolbar>
     </AppBar>

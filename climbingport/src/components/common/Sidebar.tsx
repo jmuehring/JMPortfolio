@@ -40,6 +40,7 @@ const Sidebar = () => {
               <SidebarItem item={route} key={index} />
             )
           ) : null
+          
         ))}
       </List>
     </Drawer>

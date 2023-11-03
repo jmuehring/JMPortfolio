@@ -1,6 +1,7 @@
 const assets = {
   images: {
-    logo: require("./images/initialIcon.png")
+    logo: require("./images/initialIcon.png"),
+    headshot: require("./images/professionalpic.png")
   }
 };
 
