@@ -1,7 +1,6 @@
 import OutdoorClimbing from "../pages/Outdoor Climbing/OutdoorClimbing";
 import { RouteType } from "./config";
 import Rocklands from "../pages/Outdoor Climbing/Rocklands";
-import DashboardIndex from "../pages/Outdoor Climbing/DashboardIndex";
 import ContactMe from "../pages/Contact Me/ContactMe";
 import NewRiverGorge from "../pages/Outdoor Climbing/NewRiverGorge";
 import Rifle from "../pages/Outdoor Climbing/Rifle";
@@ -42,13 +41,9 @@ const appRoutes: RouteType[] = [
       icon: <LandscapeIcon />
     },
     child: [
+  
       {
-        index: true,
-        element: <DashboardIndex />,
-        state: "dashboard.index"
-      },
-      {
-        path: "/outdoor-climbing/Rocklands",
+        path: "/outdoor-climbing/rocklands",
         element: <Rocklands />,
         state: "Rocklands",
         sidebarProps: {
@@ -56,7 +51,7 @@ const appRoutes: RouteType[] = [
         },
       },
       {
-        path: "/outdoor-climbing/NewRiverGorge",
+        path: "/outdoor-climbing/newRiverGorge",
         element: <NewRiverGorge />,
         state: "newrivergorge",
         sidebarProps: {
@@ -64,7 +59,7 @@ const appRoutes: RouteType[] = [
         }
       },
       {
-        path: "/outdoor-climbing/Rifle",
+        path: "/outdoor-climbing/rifle",
         element: <Rifle />,
         state: "rifle",
         sidebarProps: {
@@ -83,7 +78,7 @@ const appRoutes: RouteType[] = [
     },
     child: [
       {
-        path: "/indoor-climbing/Competition",
+        path: "/indoor-climbing/competition",
         element: <Competition />,
         state: "Competition",
         sidebarProps: {
@@ -91,7 +86,7 @@ const appRoutes: RouteType[] = [
         },
       },
       {
-        path: "/indoor-climbing/Training",
+        path: "/indoor-climbing/training",
         element: <Training />,
         state: "training",
         sidebarProps: {
@@ -101,7 +96,7 @@ const appRoutes: RouteType[] = [
     ]
   },
   {
-    path: "/Education",
+    path: "/education",
     element: <Education />,
     state: "education",
     sidebarProps: {
@@ -110,7 +105,7 @@ const appRoutes: RouteType[] = [
     }
   },
   {
-    path: "/Work", 
+    path: "/work", 
     element: <WorkExperience />,
     state: "work experience", 
     sidebarProps: {
