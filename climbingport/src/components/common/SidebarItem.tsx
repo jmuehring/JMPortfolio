@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import colorConfigs from "../../configs/colorConfigs";
 import { RootState } from "../../redux/store";
 import { RouteType } from "../../routes/config";
+import { useDispatch } from 'react-redux';
+import { setTopbarTitle } from '../../redux/features/appStateSlice';
 
 type Props = {
   item: RouteType;
@@ -11,14 +13,23 @@ type Props = {
 
 const SidebarItem = ({ item }: Props) => {
   const { appState } = useSelector((state: RootState) => state.appState);
+  const dispatch = useDispatch();
+  const handleItemClick = () => {
+    if (item.sidebarProps) {
+      dispatch(setTopbarTitle(item.sidebarProps.displayText));
+    }
+    
+    
+  };
 
   return (
     item.sidebarProps && item.path ? (
       <ListItemButton
         component={Link}
         to={item.path}
+        onClick={handleItemClick} // Attach the click handler here
         sx={{
-          "&: hover": {
+          "&:hover": {
             backgroundColor: colorConfigs.sidebar.hoverBg
           },
           backgroundColor: appState === item.state ? colorConfigs.sidebar.activeBg : "unset",
@@ -26,9 +37,7 @@ const SidebarItem = ({ item }: Props) => {
           paddingX: "24px"
         }}
       >
-        <ListItemIcon sx={{
-          color: colorConfigs.sidebar.color
-        }}>
+        <ListItemIcon sx={{ color: colorConfigs.sidebar.color }}>
           {item.sidebarProps.icon && item.sidebarProps.icon}
         </ListItemIcon>
         {item.sidebarProps.displayText}
@@ -36,5 +45,6 @@ const SidebarItem = ({ item }: Props) => {
     ) : null
   );
 };
+ 
 
 export default SidebarItem;

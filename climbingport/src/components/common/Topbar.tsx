@@ -1,8 +1,13 @@
 import { AppBar, Toolbar, Typography } from "@mui/material";
 import colorConfigs from "../../configs/colorConfigs";
 import sizeConfigs from "../../configs/sizeConfigs";
+import { useSelector } from 'react-redux';
+import { RootState } from '../../redux/store';
+
 
 const Topbar = () => {
+  const topbarTitle = useSelector((state: RootState) => state.appState.topbarTitle);
+
   return (
     <AppBar
       position="fixed"
@@ -16,7 +21,7 @@ const Topbar = () => {
     >
       <Toolbar>
         <Typography variant="h6">
-          JM Portfolio
+          {topbarTitle}
         </Typography>
       </Toolbar>
     </AppBar>

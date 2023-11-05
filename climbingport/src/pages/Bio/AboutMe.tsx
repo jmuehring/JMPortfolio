@@ -26,7 +26,7 @@ const AboutMe = () => {
             </Typography>
             <Box mt={2}>
             <Typography variant="body1">
-               Born and raised on the outskirts of Atlanta, I spent my early years like any other kid in Georgia, dabbling in baseball, soccer, and basketball. At age 10, I discovered climbing and was instantly hooked. This sport wasn't just another physical activity; it became a passion that paralleled the mental challenges I enjoy in computer science.
+               Born and raised on the outskirts of Atlanta, I spent my early years like any other kid in Georgia, dabbling in baseball, soccer, and basketball. At age 10, I discovered climbing and was instantly hooked. This sport wasn't just another physical activity; it became a passion that parallels the mental challenges I now enjoy in computer science.
                <br /><br />
                Climbing taught me that strength is as much about mental fortitude as it is about physical endurance. Each route is a unique problem to solve, a puzzle that requires a creative approach and a dedicated mindset. It's this aspect of climbing that I find so akin to coding: both require a methodical approach to problem-solving and an ability to think several moves ahead.
               <br /><br />

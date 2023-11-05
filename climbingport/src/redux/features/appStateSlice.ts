@@ -1,25 +1,30 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
-type appState = {
+
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+
+type AppState = {
   appState: string;
+  topbarTitle: string;
 };
 
-const initialState: appState = {
-  appState: ""
+const initialState: AppState = {
+  appState: '',
+  topbarTitle: 'About Me',
 };
 
-export const appStateSlice = createSlice({
-  name: "appState",
+const appStateSlice = createSlice({
+  name: 'appState',
   initialState,
   reducers: {
     setAppState: (state, action: PayloadAction<string>) => {
       state.appState = action.payload;
-    }
-  }
+    },
+    setTopbarTitle: (state, action: PayloadAction<string>) => {
+      state.topbarTitle = action.payload;
+    },
+  },
 });
 
-export const {
-  setAppState
-} = appStateSlice.actions;
+export const { setAppState, setTopbarTitle } = appStateSlice.actions;
 
 export default appStateSlice.reducer;
