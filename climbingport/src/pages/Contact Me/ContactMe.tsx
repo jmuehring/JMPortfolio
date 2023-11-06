@@ -23,7 +23,7 @@ const ContactMe = () => {
             Contact Me
           </Typography>
           <Typography variant="body1" gutterBottom>
-            I am currently taking classes at Georgia Tech, but I am seeking an SWE internship role in the Summer/Fall of 2024. If you have any questions, please feel free 
+            I am currently taking classes at Georgia Tech, but I am seeking a SWE internship role in the Summer/Fall of 2024. If you have any questions, please feel free 
             to reach out or connect with me! 
           </Typography>
         </Grid>
