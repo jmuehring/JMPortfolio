@@ -1,8 +1,25 @@
 import React from 'react';
-import { Typography, Paper, Divider, Box, Link } from '@mui/material';
+import { Typography, Paper, Divider, Box, Link, List, Grid } from '@mui/material';
 import assets from '../../assets/index';
 
 const Rocklands = () => {
+  const climbs = {
+    v13: ['Mooiste Moosie', 'The Vice', 'Guest List', 'Hipster Whale'],
+    v12: ['Black Shadow', 'Shoshaloza', 'Law and Order', 'Industry of Cool'],
+    v11: [
+      'Art Project',
+      'Black Velvet',
+      'Gliding through Waves like Dolphins',
+      'Witness the Sickness',
+      'Flying Guitar Thief',
+      'Dove Tongue Degressor',
+      'First Blood',
+      'The Amphitheater',
+      'Golden Virginia',
+    ],
+    v10: ['Lipstick on a Pig', 'Hole in One', 'Caroline', 'Macho King', 'Disarray', 'Leap of Faith'],
+    v9: ['Sunset Arete', 'Timeout', 'Cedar Spine', 'Vlad the Impaler'],
+  };
   return (
     <Paper elevation={3} sx={{ padding: 3, margin: 3 }}>
       <Typography variant="h3" align="center" gutterBottom>
@@ -52,11 +69,53 @@ const Rocklands = () => {
         <Divider>
 
         </Divider>
-
+        <br />  
         <Typography paragraph>
           
-          sample text
+          After some bouts of rain, it was time to climb. Even with all the videos I've watched, my expectations were surpassed with the vast amounts
+          of rock just everywhere! I didn't have a strong desire to project a singular climb, but sample all the climbs Rocklands could offer - and there was a lot. 
+          <br />
+          Even though I wasn't in peak climbing shape, I tried a multitude of hard climbs: including historic climbs Fred Nicole put up in 2002 (I was just born!).
         </Typography>
+        <Box sx={{display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img 
+               alt="Room3"
+              src={assets.images.blackeagle}
+              style={{ maxWidth: '50%', maxHeight: '50%', height: 'auto', width: 'auto', objectFit: 'contain' }} 
+            />
+        
+        </Box>
+        <Typography align="center">
+              Picture courtesy of Porter Geddes | Me on Fred Nicole's Black Eagle v13 
+        </Typography>
+        <Divider>
+        </Divider>
+        <br/>
+        <Typography paragraph> 
+        ligma
+        </Typography>
+        <Divider>
+
+        </Divider>
+        <br />
+        
+
+        <Typography align = "center" fontWeight = "bold" fontSize = '1.5rem'>
+          Tick List
+        </Typography>
+        <Grid container spacing={2}>
+        
+        {Object.entries(climbs).map(([grade, climbsList]) => (
+          <Grid item xs={12} sm={6} md={2.4} key={grade}>
+            <Typography variant="h6" gutterBottom>
+              {grade}
+            </Typography>
+            {climbsList.map((climb, index) => (
+              <Typography key={index}>{climb}</Typography>
+            ))}
+          </Grid>
+        ))}
+      </Grid>
         
       </Box>
     </Paper>

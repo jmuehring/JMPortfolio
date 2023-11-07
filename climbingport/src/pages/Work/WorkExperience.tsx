@@ -13,11 +13,11 @@ const WorkExperience = () => {
         <ListItemText
             primaryTypographyProps={{ 
                 sx: { 
-                fontWeight: 'bold' // This makes the primary text bold
+                fontWeight: 'bold'
               } 
             }}
         
-            primary="VIP Embedded Systems CyberSecurity"
+            primary="VIP Embedded Systems Cyber Security"
             secondary={
               <>
                 <Typography component="span" variant="body2" color="text.primary">
@@ -72,7 +72,7 @@ const WorkExperience = () => {
         <ListItemText
             primaryTypographyProps={{ 
                 sx: { 
-                fontWeight: 'bold' // This makes the primary text bold
+                fontWeight: 'bold'
               } 
             }}
             primary="WBL North Springs"
@@ -103,7 +103,7 @@ const WorkExperience = () => {
         <ListItemText
             primaryTypographyProps={{ 
                 sx: { 
-                fontWeight: 'bold' // This makes the primary text bold
+                fontWeight: 'bold' 
               } 
             }}
             primary="Kailas Brand Ambassador"
@@ -131,7 +131,7 @@ const WorkExperience = () => {
         <ListItemText
             primaryTypographyProps={{ 
                 sx: { 
-                fontWeight: 'bold' // This makes the primary text bold
+                fontWeight: 'bold' 
               } 
             }}
             primary="Stone Summit Camp Counselor"
