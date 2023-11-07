@@ -36,7 +36,7 @@ const AboutMe = () => {
             <Typography> 
               <br />
 
-              As a student, this is a personal website for my own enjoyment and I have a lot of information to put online -- especially climbing info from when I was a kid! Please bear in mind it may be incomplete sometimes! :)
+              This is a personal website for my own enjoyment and I have a lot of information to put online -- especially climbing info from when I was a kid! Please bear in mind it may be incomplete sometimes! :)
             </Typography>
 
             </Box>
