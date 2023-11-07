@@ -2,7 +2,6 @@ import React from 'react';
 import { Typography, Paper, Box, List, ListItem, ListItemText, Divider } from '@mui/material';
 
 const WorkExperience = () => {
-  const largerFontSize = '1.5rem';
   return (
     <Paper elevation={3} sx={{ padding: 3 }}>
       <Typography variant="h4" align="center" gutterBottom>
