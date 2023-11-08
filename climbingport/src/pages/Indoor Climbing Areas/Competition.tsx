@@ -4,7 +4,7 @@ type Props = {};
 
 const Competition = (props: Props) => {
   return (
-    <div> Yadda yadda Nationals</div>
+    <div> Coming Soon!</div>
   );
 };
 

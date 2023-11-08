@@ -1,10 +1,10 @@
-import OutdoorClimbing from "../pages/Outdoor Climbing/OutdoorClimbing";
+import OutdoorClimbing from "../pages/Outdoor Climbing Areas/OutdoorClimbing";
 import { RouteType } from "./config";
-import Rocklands from "../pages/Outdoor Climbing/Rocklands";
+import Rocklands from "../pages/Outdoor Climbing Areas/Rocklands";
 import ContactMe from "../pages/Contact Me/ContactMe";
-import NewRiverGorge from "../pages/Outdoor Climbing/NewRiverGorge";
-import Rifle from "../pages/Outdoor Climbing/Rifle";
-import ComponentPageLayout from "../pages/Indoor Climbing Areas/ComponentPageLayout";
+import NewRiverGorge from "../pages/Outdoor Climbing Areas/NewRiverGorge";
+import Rifle from "../pages/Outdoor Climbing Areas/Rifle";
+import IndoorClimbing from "../pages/Indoor Climbing Areas/IndoorClimbing";
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import LandscapeIcon from '@mui/icons-material/Landscape';
@@ -70,7 +70,7 @@ const appRoutes: RouteType[] = [
   },
   {
     path: "/indoor-climbing",
-    element: <ComponentPageLayout />,
+    element: <IndoorClimbing />,
     state: "dropDown, finished.",
     sidebarProps: {
       displayText: "Indoor Climbing",
