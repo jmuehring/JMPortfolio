@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.js": "/JoshWebsite/static/js/main.45eebe96.js",
+    "main.js": "/JoshWebsite/static/js/main.2f57b3da.js",
     "static/js/787.7e722b52.chunk.js": "/JoshWebsite/static/js/787.7e722b52.chunk.js",
-    "static/media/bread.png": "/JoshWebsite/static/media/bread.caa0e39e02ef58521c1d.png",
-    "static/media/hottub.png": "/JoshWebsite/static/media/hottub.c9caf3e541e82b4fdc7f.png",
-    "static/media/squeeze.jpg": "/JoshWebsite/static/media/squeeze.d0a36a2d712b71c87dbc.jpg",
-    "static/media/cliffjump.jpg": "/JoshWebsite/static/media/cliffjump.cab5cbb285c1b6f1eff7.jpg",
-    "static/media/prow.jpg": "/JoshWebsite/static/media/prow.f1ee262df5cafb64d2c0.jpg",
-    "static/media/blackeagle.jpg": "/JoshWebsite/static/media/blackeagle.804f2ecee28178cdd7eb.jpg",
-    "static/media/virginia.jpg": "/JoshWebsite/static/media/virginia.718e7c18a06d3e9fe0e6.jpg",
-    "static/media/homies.jpg": "/JoshWebsite/static/media/homies.47d730855e1325da8213.jpg",
-    "static/media/vanity.jpg": "/JoshWebsite/static/media/vanity.e86974ef2436fb43a983.jpg",
-    "static/media/pose.jpg": "/JoshWebsite/static/media/pose.4f548e5dcf38cf74623b.jpg",
-    "static/media/professionalpic.png": "/JoshWebsite/static/media/professionalpic.78a58ca1ba5e096b9c87.png",
-    "static/media/room1.jpg": "/JoshWebsite/static/media/room1.1755e7b25d77754d2ac7.jpg",
-    "static/media/room2.jpg": "/JoshWebsite/static/media/room2.990160dd18ce8c46d85a.jpg",
-    "static/media/room3.jpg": "/JoshWebsite/static/media/room3.b915db05e61ff799ea8d.jpg",
+    "static/media/bread.jpg": "/JoshWebsite/static/media/bread.64222dc401346997e3ae.jpg",
+    "static/media/Fortress.jpg": "/JoshWebsite/static/media/Fortress.0496f36c016309407c2f.jpg",
+    "static/media/professionalpic.jpg": "/JoshWebsite/static/media/professionalpic.5cd1c08a2bab82591345.jpg",
+    "static/media/blackeagle.jpg": "/JoshWebsite/static/media/blackeagle.fd01043fb1061dcc576f.jpg",
+    "static/media/cliffjump.jpg": "/JoshWebsite/static/media/cliffjump.321a31335894d44f4cea.jpg",
+    "static/media/room1.jpg": "/JoshWebsite/static/media/room1.85c6037d94acd78345c4.jpg",
+    "static/media/prow.jpg": "/JoshWebsite/static/media/prow.8e07055174427ed49dbc.jpg",
+    "static/media/vanity.jpg": "/JoshWebsite/static/media/vanity.c7cd713d9e57a7df9ccd.jpg",
+    "static/media/squeeze.jpg": "/JoshWebsite/static/media/squeeze.cd1ecfcebb2d95f6f2aa.jpg",
+    "static/media/room2.jpg": "/JoshWebsite/static/media/room2.8a1d32b2377d3f012dc4.jpg",
+    "static/media/virginia.jpg": "/JoshWebsite/static/media/virginia.1aae4d6a664bec8f35d7.jpg",
+    "static/media/room3.jpg": "/JoshWebsite/static/media/room3.61275f778549a4d82bf7.jpg",
     "static/media/initialIcon.png": "/JoshWebsite/static/media/initialIcon.43f6346d5cf83242f5bc.png",
     "static/media/MuehringJoshua-Resume.pdf": "/JoshWebsite/static/media/MuehringJoshua-Resume.5a04da1ae862174e3b66.pdf",
+    "static/media/pose.jpg": "/JoshWebsite/static/media/pose.51beae18c1bb49266770.jpg",
+    "static/media/hottub.jpg": "/JoshWebsite/static/media/hottub.b80dd312b915790aca82.jpg",
     "index.html": "/JoshWebsite/index.html",
-    "main.45eebe96.js.map": "/JoshWebsite/static/js/main.45eebe96.js.map",
+    "main.2f57b3da.js.map": "/JoshWebsite/static/js/main.2f57b3da.js.map",
     "787.7e722b52.chunk.js.map": "/JoshWebsite/static/js/787.7e722b52.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.45eebe96.js"
+    "static/js/main.2f57b3da.js"
   ]
 }
