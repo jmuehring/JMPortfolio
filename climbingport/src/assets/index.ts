@@ -13,7 +13,8 @@ const assets = {
     cliffjump: require("./images/cliffjump.jpg"),
     virginia: require("./images/virginia.jpg"),
     squeeze: require("./images/squeeze.jpg"),
-    vanity: require("./images/vanity.jpg")
+    vanity: require("./images/vanity.jpg"),
+    fortress: require("./images/Fortress.jpg")
   },
 
   pdf: {
