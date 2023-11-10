@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Paper, Divider, Box, Link, List, Grid, Stack } from '@mui/material';
+import { Typography, Paper, Divider, Box, Grid, Stack } from '@mui/material';
 import assets from '../../assets/index';
 
 const Rocklands = () => {
@@ -85,7 +85,7 @@ const Rocklands = () => {
     <img 
       alt="blackeagle"
       src={assets.images.blackeagle}
-      style={{ width: '100%', height: 'auto', objectFit: 'contain' }} 
+      style={{ width: '700px', height: 'auto', objectFit: 'contain' }} 
     />
     <Typography align="center"> 
       Picture courtesy of Porter Geddes | Me on Fred Nicole's Black Eagle v13 
@@ -143,34 +143,56 @@ const Rocklands = () => {
         <br />
         <Stack>
         <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', my: 2, mx : 2 }}>
+          <Stack>
             <img 
               alt="cliffjump"
               src={assets.images.cliffjump}
               style={{height: '800px', objectFit: 'contain' }} 
             />
+
+            <Typography align='center' fontWeight = 'bold'>
+            Cliff jumping into the water!
+            </Typography>
+          </Stack>
+          <Stack>
             <img 
+            
               alt="virginia"
               src={assets.images.virginia}
               style={{height: '800px', objectFit: 'contain' }} 
             />
+            <Typography align='center' fontWeight='bold'>
+            Me trying hard on Golden Virginia v11
+            </Typography>
+            </Stack>
         </Box>
             <br />
             <br />
 
         <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', my: 2, mx : 2 }}>
+          <Stack>
             <img 
               alt="squeeze"
               src={assets.images.squeeze}
-              style={{height: '800px', objectFit: 'contain' }} 
+              style={{height: '800px', width: 'auto', objectFit: 'contain' }} 
             />
+            <Typography align='center' fontWeight='bold'>
+            Full Compression on Timeout v9
+            </Typography>
+            </Stack>
+            <Stack>
             <img 
               alt="vanity"
               src={assets.images.vanity}
-              style={{height: '800px', objectFit: 'contain' }} 
+              style={{height: '800px', width: 'auto', objectFit: 'contain' }} 
             />
+            <Typography align='center' fontWeight='bold'>
+            Early day start on Vanity v6
+            </Typography>
+            </Stack>
         </Box>
         <Typography align = 'center'>
-          Pictures courtesy of Porter Geddes
+          Pictures courtesy of Porter Geddes  
         </Typography>
         </Stack>
         <br />
@@ -183,7 +205,7 @@ const Rocklands = () => {
         </Divider>
         <br/>
         <Typography paragraph> 
-        There is someting to be said about the hospitality of the locals from helping or being actually genuine. Despite the very apparent 
+        There is something to be said about the hospitality of the locals from helping or being actually genuine. Despite the very apparent 
         racial dynamic, everyone is friendly. During one of our climbing sessions, we had one of our crew hurt themselves pretty badly out in the wildnerness late at night.
         Porter ran out to go find help as there was no service to go knock on doors. 
         No doubt in my mind if I was back home, either no one would answer the door or be met with hostility. In this situation, the farm owner opened the door and no questions

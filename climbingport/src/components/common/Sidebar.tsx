@@ -7,6 +7,8 @@ import SidebarItem from "./SidebarItem";
 import SidebarItemCollapse from "./SidebarItemCollapse";
 
 const Sidebar = () => {
+  
+  
   return (
     <Drawer
       variant="permanent"
@@ -29,7 +31,7 @@ const Sidebar = () => {
             direction="row"
             justifyContent="center"
           >
-            <Avatar src={assets.images.logo} sx= {{width: "40px", height: "40px"}} />
+          <Avatar src={assets.images.logo} sx= {{width: "40px", height: "40px"}} />
           </Stack>
         </Toolbar>
         {appRoutes.map((route, index) => (
