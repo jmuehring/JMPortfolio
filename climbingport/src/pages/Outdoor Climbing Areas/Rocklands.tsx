@@ -70,8 +70,8 @@ const Rocklands = () => {
 
         </Divider>
         <br />  
-        <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', my: 2, overflow: 'hidden' }}> 
-  <Box sx={{ maxWidth: '50%', mx: 4 }}>
+        <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', my: 2, overflow: 'hidden', mx: 2 } }> 
+  <Box sx={{ maxWidth: '50%', mx: 4}}>
     <Typography> 
       After some bouts of rain, it was time to climb. Even with all the videos I've watched, my expectations were surpassed with the vast amounts
       of rock just everywhere! I didn't have a strong desire to project a singular climb, but sample all the climbs Rocklands could offer - and there was a lot. 
@@ -95,12 +95,12 @@ const Rocklands = () => {
 
 
 
-        <Box sx={{ display: 'flex', my: 2, overflow: 'hidden' }}> 
+        <Box sx={{ display: 'flex', my: 2, overflow: 'hidden', mx: 2 }}> 
           <Stack> 
             <img 
               alt="prow"
               src={assets.images.prow}
-              style={{height: '700px', objectFit: 'contain' }} 
+              style={{height: '800px', objectFit: 'contain'}} 
             />
             <Typography align = "center"> 
               Picture courtesy of Porter Geddes 
@@ -146,22 +146,27 @@ const Rocklands = () => {
             <img 
               alt="cliffjump"
               src={assets.images.cliffjump}
-              style={{height: '400px', objectFit: 'contain' }} 
+              style={{height: '800px', objectFit: 'contain' }} 
             />
             <img 
               alt="virginia"
               src={assets.images.virginia}
-              style={{height: '400px', objectFit: 'contain' }} 
+              style={{height: '800px', objectFit: 'contain' }} 
             />
+        </Box>
+            <br />
+            <br />
+
+        <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', my: 2, mx : 2 }}>
             <img 
               alt="squeeze"
               src={assets.images.squeeze}
-              style={{height: '400px', objectFit: 'contain' }} 
+              style={{height: '800px', objectFit: 'contain' }} 
             />
             <img 
               alt="vanity"
               src={assets.images.vanity}
-              style={{height: '400px', objectFit: 'contain' }} 
+              style={{height: '800px', objectFit: 'contain' }} 
             />
         </Box>
         <Typography align = 'center'>
