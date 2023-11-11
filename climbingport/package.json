@@ -1,7 +1,7 @@
 {
   "name": "react-sidebar-with-dropdown",
   "version": "0.1.0",
-  "homepage": "https://jmuehring.github.io/JoshWebsite",
+  "homepage": "https://jmuehring.github.io/JMPortfolio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",

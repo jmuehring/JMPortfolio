@@ -15,12 +15,33 @@ const assets = {
     squeeze: require("./images/squeeze.jpg"),
     vanity: require("./images/vanity.jpg"),
     fortress: require("./images/Fortress.jpg"),
-    rifleDog: require("./images/rifleDog.JPG")
+    rifleDog: require("./images/rifleDog.JPG"),
+    destiny: require("./images/destiny.jpg"),
+    projectWall: require("./images/projectWall.jpg"),
+    cooking: require("./images/cooking.jpg"),
   },
 
   pdf: {
-    resume: require("./images/MuehringJoshua-Resume.pdf")
-  }
+    resume: require("./images/Resume-JM.pdf")
+  },
+
+  simplyRead: [
+    require("./images/1.jpg"),
+    require("./images/2.jpg"),
+    require("./images/3.jpg"),
+    require("./images/4.jpg"),
+    require("./images/5.jpg"),
+    require("./images/6.jpg"),
+    require("./images/7.jpg"),
+    require("./images/8.jpg"),
+    require("./images/9.jpg"),
+    require("./images/10.jpg"),
+    require("./images/11.jpg"),
+    require("./images/12.jpg"),
+    require("./images/13.jpg"),
+    require("./images/14.jpg"),
+    require("./images/15.jpg")
+  ]
 };
 
 export default assets;

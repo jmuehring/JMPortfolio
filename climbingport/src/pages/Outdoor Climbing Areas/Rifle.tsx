@@ -2,6 +2,7 @@ import React from 'react';
 import { Typography, Paper, Divider, Box, Grid, Stack } from '@mui/material'; 
 import assets from '../../assets/index';
 import YouTube from '../../components/common/Youtube';
+import ImageSlider from '../../components/common/ImageSlider';
 
 type Props = {};
 
@@ -26,6 +27,8 @@ const Rifle = (props: Props) => {
         </Typography>
       </Box>
       <Divider sx={{my: 2}}/>
+
+      
       <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', my: 2, overflow: 'hidden', mx: 2 } }> 
         <Box sx={{ maxWidth: '50%', mx: 4}}>
           <Typography> 
@@ -49,6 +52,97 @@ const Rifle = (props: Props) => {
         </Box>
       </Box>
       <Divider sx={{ my : 2}}/>
+      {/* simply read */}
+      <Typography align='center' fontWeight='bold' fontSize='1.5rem'>
+          Simply Read 5.13d
+      </Typography>
+      <Box sx={{ display: 'flex', my: 3, overflow: 'hidden', mx: 2 }}> 
+          <Stack> 
+            <ImageSlider images={assets.simplyRead} />
+            <Typography align = "center"> 
+              Picture courtesy of John Heidbreder
+            </Typography>
+          </Stack>
+          <Box sx={{ ml: 10, maxWidth: '50%'}}>
+            <br />
+            <br />
+            <br />
+            <Typography> 
+            placeholder text placeholder text placeholder text placeholder textplaceholder text placeholder text placeholder text placeholder text
+            placeholder text
+            placeholder text
+            placeholder text
+            placeholder text
+            placeholder textplaceholder text placeholder text placeholder text placeholder textplaceholder text placeholder text placeholder text placeholder text
+            placeholder text
+            placeholder text
+            placeholder text
+            placeholder text
+            placeholder text
+
+            </Typography>
+
+          </Box>
+          </Box>
+
+
+
+      
+
+
+
+      <Stack>
+      <Divider sx={{ my : 2}}/>
+        <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', my: 2, mx : 2 }}>
+          <Stack>
+            <img 
+              alt="destiny"
+              src={assets.images.destiny}
+              style={{height: '800px', objectFit: 'contain' }} 
+            />
+
+            <Typography align='center' fontWeight = 'bold'>
+            Car I lived in my gap year, deemed Destiny, she'll get you there!
+            </Typography>
+          </Stack>
+          <Stack>
+            <img 
+            
+              alt="cooking"
+              src={assets.images.cooking}
+              style={{height: '800px', objectFit: 'contain' }} 
+            />
+            <Typography align='center' fontWeight='bold'>
+            Me trying hard on Golden Virginia v11
+            </Typography>
+            </Stack>
+        </Box>
+            <br />
+            <br />
+
+        <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', my: 2, mx : 2 }}>
+          <Stack>
+            <img 
+              alt="projectWall"
+              src={assets.images.projectWall}
+              style={{height: '800px', width: 'auto', objectFit: 'contain' }} 
+            />
+            <Typography align='center' fontWeight='bold'>
+            Full Compression on Timeout v9
+            </Typography>
+            </Stack>
+        </Box>
+        <Typography align = 'center'>
+          Pictures courtesy of John Heidbreder 
+        </Typography>
+      </Stack>
+
+      <Divider sx={{ my : 2}}/>
+       {/*Simply Read */}
+      <Divider sx={{ my : 2}}/>
+      
+       {/* pictures */}
+      
       <Typography align = "center" fontWeight = "bold" fontSize = '1.5rem'>
         Hard Climbs Ascended
       </Typography>
@@ -60,7 +154,7 @@ const Rifle = (props: Props) => {
             justifyContent: 'center', // Centers children horizontally
             alignItems: 'flex-start', // Aligns children to the start of the cross axis
             flexWrap: 'wrap', // Allows items to wrap to the next line
-            gap: 2, // Spacing between items
+            gap: 4, // Spacing between items
             my: 2, // Margin top and bottom for spacing
           }}
         >
@@ -130,6 +224,7 @@ const Rifle = (props: Props) => {
             </Typography>
           </Stack>
         </Box>
+        
         
         
 

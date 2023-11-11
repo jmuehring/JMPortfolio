@@ -29,11 +29,6 @@ const ContactMe = () => {
         </Grid>
       </Grid>
       <Box textAlign="center" my={4} >
-        <Tooltip title="Email">
-          <IconButton href="mailto:joshuamuehring@gmail.com" target="_blank" rel="noopener noreferrer" sx ={{mx : 1}}>
-            <EmailIcon fontSize="large" />
-          </IconButton>
-        </Tooltip>
         <Tooltip title="LinkedIn">
           <IconButton href="https://www.linkedin.com/in/jmuehring" target="_blank" rel="noopener noreferrer" sx ={{mx : 1}}>
             <LinkedInIcon fontSize="large" />
