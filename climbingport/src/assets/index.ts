@@ -14,7 +14,8 @@ const assets = {
     virginia: require("./images/virginia.jpg"),
     squeeze: require("./images/squeeze.jpg"),
     vanity: require("./images/vanity.jpg"),
-    fortress: require("./images/Fortress.jpg")
+    fortress: require("./images/Fortress.jpg"),
+    rifleDog: require("./images/rifleDog.JPG")
   },
 
   pdf: {

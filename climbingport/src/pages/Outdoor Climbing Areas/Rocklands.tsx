@@ -313,6 +313,7 @@ const Rocklands = () => {
               Picture courtesy of Porter Geddes
             </Typography>
         </Stack>
+        </Box>
         <br />
 
         <Divider>
@@ -339,8 +340,7 @@ const Rocklands = () => {
           </Grid>
         ))}
       </Grid>
-        
-      </Box>
+      
     </Paper>
   );
 };
