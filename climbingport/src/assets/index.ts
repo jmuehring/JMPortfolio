@@ -19,6 +19,7 @@ const assets = {
     destiny: require("./images/destiny.jpg"),
     projectWall: require("./images/projectWall.jpg"),
     cooking: require("./images/cooking.jpg"),
+    marryMe: require("./images/marryMe.JPG")
   },
 
   pdf: {
@@ -41,6 +42,17 @@ const assets = {
     require("./images/13.jpg"),
     require("./images/14.jpg"),
     require("./images/15.jpg")
+  ], 
+
+  zulu: [
+    require("./images/1z.JPG"),
+    require("./images/2z.JPG"),
+    require("./images/3z.JPG"),
+    require("./images/4z.JPG"),
+    require("./images/5z.JPG"),
+    require("./images/6z.JPG"),
+    require("./images/7z.JPG"),
+    require("./images/8z.JPG"),
   ]
 };
 
