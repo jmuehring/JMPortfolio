@@ -19,7 +19,12 @@ const assets = {
     destiny: require("./images/destiny.jpg"),
     projectWall: require("./images/projectWall.jpg"),
     cooking: require("./images/cooking.jpg"),
-    marryMe: require("./images/marryMe.JPG")
+    marryMe: require("./images/marryMe.JPG"),
+    teenagelobotomy3: require("./images/teenagelobotomy3.JPG"),
+    teenagelobotomy2: require("./images/teenagelobotomy2.JPG"),
+    forest: require("./images/forest.jpg"),
+    resurrection: require("./images/resurrection.JPG"),
+    show: require("./images/show.JPG")
   },
 
   pdf: {

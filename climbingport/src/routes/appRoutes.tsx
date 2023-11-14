@@ -2,7 +2,7 @@ import OutdoorClimbing from "../pages/Outdoor Climbing Areas/OutdoorClimbing";
 import { RouteType } from "./config";
 import Rocklands from "../pages/Outdoor Climbing Areas/Rocklands";
 import ContactMe from "../pages/Contact Me/ContactMe";
-import NewRiverGorge from "../pages/Outdoor Climbing Areas/NewRiverGorge";
+import Squamish from "../pages/Outdoor Climbing Areas/Squamish";
 import Rifle from "../pages/Outdoor Climbing Areas/Rifle";
 import IndoorClimbing from "../pages/Indoor Climbing Areas/IndoorClimbing";
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
@@ -51,11 +51,11 @@ const appRoutes: RouteType[] = [
         },
       },
       {
-        path: "/outdoor-climbing/newRiverGorge",
-        element: <NewRiverGorge />,
-        state: "newrivergorge",
+        path: "/outdoor-climbing/squamish",
+        element: <Squamish />,
+        state: "squamish",
         sidebarProps: {
-          displayText: "New River Gorge"
+          displayText: "Squamish"
         }
       },
       {
