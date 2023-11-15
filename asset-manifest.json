@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/JMPortfolio/static/js/main.c504a47c.js",
+    "main.js": "/JMPortfolio/static/js/main.bb6ee6a9.js",
     "static/js/787.7e722b52.chunk.js": "/JMPortfolio/static/js/787.7e722b52.chunk.js",
     "static/media/bread.jpg": "/JMPortfolio/static/media/bread.64222dc401346997e3ae.jpg",
     "static/media/projectWall.jpg": "/JMPortfolio/static/media/projectWall.652bd45855c4adb63a60.jpg",
@@ -25,13 +25,18 @@
     "static/media/3z.JPG": "/JMPortfolio/static/media/3z.eb7cfeeecafab9f6241c.JPG",
     "static/media/2z.JPG": "/JMPortfolio/static/media/2z.a1e9d92b7b991689b0e3.JPG",
     "static/media/Fortress.jpg": "/JMPortfolio/static/media/Fortress.0496f36c016309407c2f.jpg",
+    "static/media/teenagelobotomy3.JPG": "/JMPortfolio/static/media/teenagelobotomy3.d31dad46063096b638ff.JPG",
+    "static/media/teenagelobotomy2.JPG": "/JMPortfolio/static/media/teenagelobotomy2.0ce59c1617e2d16640c1.JPG",
     "static/media/professionalpic.jpg": "/JMPortfolio/static/media/professionalpic.5cd1c08a2bab82591345.jpg",
+    "static/media/forest.jpg": "/JMPortfolio/static/media/forest.b87852c0f20300f6369f.jpg",
     "static/media/6z.JPG": "/JMPortfolio/static/media/6z.2a39ed31e35b670c774a.JPG",
+    "static/media/resurrection.JPG": "/JMPortfolio/static/media/resurrection.eca6453e48655ffb43f7.JPG",
     "static/media/4z.JPG": "/JMPortfolio/static/media/4z.5d5547abe17d28670370.JPG",
     "static/media/8z.JPG": "/JMPortfolio/static/media/8z.cb12f7fbd514562486db.JPG",
     "static/media/7z.JPG": "/JMPortfolio/static/media/7z.e2a48beb48f2cefcd030.JPG",
     "static/media/destiny.jpg": "/JMPortfolio/static/media/destiny.20207f6f862dfe44b242.jpg",
     "static/media/5z.JPG": "/JMPortfolio/static/media/5z.01f865750a980e91a244.JPG",
+    "static/media/show.JPG": "/JMPortfolio/static/media/show.c1300d19f4fc79ec1f61.JPG",
     "static/media/blackeagle.jpg": "/JMPortfolio/static/media/blackeagle.fd01043fb1061dcc576f.jpg",
     "static/media/cliffjump.jpg": "/JMPortfolio/static/media/cliffjump.321a31335894d44f4cea.jpg",
     "static/media/room1.jpg": "/JMPortfolio/static/media/room1.85c6037d94acd78345c4.jpg",
@@ -47,10 +52,10 @@
     "static/media/Resume-JM.pdf": "/JMPortfolio/static/media/Resume-JM.14f524077498037cfa61.pdf",
     "static/media/hottub.jpg": "/JMPortfolio/static/media/hottub.b80dd312b915790aca82.jpg",
     "index.html": "/JMPortfolio/index.html",
-    "main.c504a47c.js.map": "/JMPortfolio/static/js/main.c504a47c.js.map",
+    "main.bb6ee6a9.js.map": "/JMPortfolio/static/js/main.bb6ee6a9.js.map",
     "787.7e722b52.chunk.js.map": "/JMPortfolio/static/js/787.7e722b52.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.c504a47c.js"
+    "static/js/main.bb6ee6a9.js"
   ]
 }
