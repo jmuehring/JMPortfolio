@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Paper, Divider, Box, Grid, Stack } from '@mui/material'; 
+import { Typography, Paper, Divider, Box, Stack } from '@mui/material'; 
 import assets from '../../assets/index';
 import YouTube from '../../components/common/Youtube';
 import ImageSlider from '../../components/common/ImageSlider';

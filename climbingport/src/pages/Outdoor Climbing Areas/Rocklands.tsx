@@ -311,7 +311,7 @@ const Rocklands = () => {
         </Box>
         <Typography align= 'center'>
               Picture courtesy of Porter Geddes
-            </Typography>
+          </Typography>
         </Stack>
         </Box>
         <br />
