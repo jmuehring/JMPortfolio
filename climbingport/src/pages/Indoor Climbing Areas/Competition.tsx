@@ -216,7 +216,7 @@ const Competition = () => {
       <Paper elevation={5} sx={{ padding: 2, marginBottom: 2 }}>
         <Typography>
          As a mostly powerful climber, I excelled more towards speed and bouldering. There are some results previous to 2017, but seem to be lost to time. In order to trim down clutter,
-         I decided not to put local, regional, and divisional competitions and only put National and World competitions.
+         I decided not to put Local, Regional, and Divisional competitions and only put National and World competitions.
         </Typography>
         <Typography align='center' fontWeight={'bold'}>
           Here are my results:
