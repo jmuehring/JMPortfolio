@@ -103,17 +103,12 @@ const Rifle = (props: Props) => {
           <Box sx={{maxWidth: '70%'}}>
             <br />
             <Typography> 
-            placeholder text placeholder text placeholder text placeholder textplaceholder text placeholder text placeholder text placeholder text
-            placeholder text
-            placeholder text
-            placeholder text
-            placeholder text
-            placeholder textplaceholder text placeholder text placeholder text placeholder textplaceholder text placeholder text placeholder text placeholder text
-            placeholder text
-            placeholder text
-            placeholder text
-            placeholder text
-            placeholder text
+            One of the classic power endurance climbs in the canyon, this climb is crpytic with many angle changes and vague body positions. 
+            As such, the climb is named Simply Read as a joke that it is quite, not simply read. I projected this climb with Lohan, a skilled 
+            sport climber that has a different climbing style than me by preferring the easiest, profeccient way while I prefer the more straightforward, 
+            powerful style. After a week of trying, Lohan and I both sent and he joked he wasted some days trying to do it my style instead of doing it the 'Lohan' way. 
+            This is a fantastic climb and would recommend to anyone that is climbing this grade.
+
 
             </Typography>
 
@@ -193,14 +188,15 @@ const Rifle = (props: Props) => {
       <Box sx={{ my: 2, mx: 2, overflow: 'hidden' }}>
         <Grid container spacing={5} alignItems="flex-start">
           <Grid item xs={12} md={6}>
-            <Typography sx={{ mt: 0, mb: 2 }}>
-              placeholder text placeholder text placeholder text placeholder text
-              placeholder text placeholder text placeholder text placeholder text
-              placeholder text placeholder text placeholder text placeholder text
-              placeholder text placeholder text placeholder text placeholder text
-              placeholder text placeholder text placeholder text placeholder text
-              placeholder text placeholder text placeholder text placeholder text
+          <Box sx={{ maxWidth: '100%', mx: 4}}>
+            <Typography sx={{ mt: 8, mb: 2,}}>
+              After doing Waka Flocka, I set my sights on it's grade neighbor classic, Zulu. Endurance is the game here, with consistent hard moves for 25 meters.
+              I spent numerous days on this one, and had my beta dialed for the climb, but unfortunately did not have the fitness to send it. 
+              A project for a future me
+              
             </Typography>
+          </Box>
+           
           </Grid>
           <Grid item xs={12} md={6}>
             <ImageSlider images={assets.zulu} width="650px" height="433px"/>
