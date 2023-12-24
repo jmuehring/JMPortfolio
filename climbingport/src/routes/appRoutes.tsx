@@ -16,6 +16,8 @@ import AboutMe from "../pages/Bio/AboutMe";
 import Education from "../pages/Education/Education";
 import WorkExperience from "../pages/Work/WorkExperience";
 import WorkIcon from '@mui/icons-material/Work';
+import Projects from "../pages/Projects/Projects";
+import AppsIcon from '@mui/icons-material/Apps';
 
 const appRoutes: RouteType[] = [
   {
@@ -111,6 +113,15 @@ const appRoutes: RouteType[] = [
     sidebarProps: {
       displayText: "Work Experience",
       icon: <WorkIcon />
+    }
+  },
+  {
+    path: "/projects", 
+    element: <Projects />,
+    state: "projects", 
+    sidebarProps: {
+      displayText: "Projects",
+      icon: <AppsIcon />
     }
   },
   {

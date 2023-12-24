@@ -21,7 +21,7 @@ const Education = () => {
         </Typography>
         
         <Typography variant="body2">
-          GPA: 3.65 <br>
+          GPA: 3.71 <br>
           </br> Major GPA: 4.00
         </Typography>
         <Typography variant="body2">

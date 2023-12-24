@@ -109,7 +109,6 @@ const Rifle = (props: Props) => {
             powerful style. After a week of trying, Lohan and I both sent and he joked he wasted some days trying to do it my style instead of doing it the 'Lohan' way. 
             This is a fantastic climb and would recommend to anyone that is climbing this grade.
 
-
             </Typography>
 
           </Box>
@@ -177,7 +176,7 @@ const Rifle = (props: Props) => {
         </Box>
         <Typography align = 'center'>
           Pictures courtesy of John Heidbreder 
-        </Typography>
+        </Typography> 
       </Stack>
 
       <Divider sx={{ my : 2}}/>
