@@ -4,7 +4,10 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import GetAppIcon from '@mui/icons-material/GetApp';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+
 import assets from '../../assets/index';
+
 
 const ContactMe = () => {
   return (
@@ -22,25 +25,30 @@ const ContactMe = () => {
             Contact Me
           </Typography>
           <Typography variant="body1" gutterBottom>
-            I am currently taking classes at Georgia Tech, but I am seeking a CS internship role in the Summer/Fall of 2024. If you have any questions, please feel free 
+            I am currently taking classes at Georgia Tech, but I am seeking a CS internship role in the Fall of 2024. If you have any questions, please feel free 
             to reach out or connect with me! 
           </Typography>
         </Grid>
       </Grid>
       <Box textAlign="center" my={4} >
         <Tooltip title="LinkedIn">
-          <IconButton href="https://www.linkedin.com/in/jmuehring" target="_blank" rel="noopener noreferrer" sx ={{mx : 1}}>
+          <IconButton href="https://www.linkedin.com/in/jmuehring" target="_blank" rel="noopener noreferrer" sx ={{mx : 2}}>
             <LinkedInIcon fontSize="large" />
           </IconButton>
         </Tooltip>
         <Tooltip title="Instagram">
-          <IconButton href="https://www.instagram.com/joshua_muehring" target="_blank" rel="noopener noreferrer" sx ={{mx : 1}}>
+          <IconButton href="https://www.instagram.com/joshua_muehring" target="_blank" rel="noopener noreferrer" sx ={{mx : 2}}>
             <InstagramIcon fontSize="large" />
           </IconButton>
         </Tooltip>
         <Tooltip title="GitHub">
-          <IconButton href="https://github.com/jmuehring" target="_blank" rel="noopener noreferrer" sx ={{mx : 1}}>
+          <IconButton href="https://github.com/jmuehring" target="_blank" rel="noopener noreferrer" sx ={{mx : 2}}>
             <GitHubIcon fontSize="large" />
+          </IconButton>
+        </Tooltip>
+        <Tooltip title="YouTube">
+          <IconButton href="https://www.youtube.com/channel/UCdjzTpwJQXrTIT7_MnsEvFA" target="_blank" rel="noopener noreferrer" sx ={{mx : 2}}>
+            <YouTubeIcon fontSize="large" />
           </IconButton>
         </Tooltip>
       </Box>

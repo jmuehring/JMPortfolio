@@ -38,7 +38,7 @@ const Education = () => {
           Relevant Classes taken:
         </Typography>
         <List dense sx={{ paddingTop: 0, paddingBottom: 0}}>
-         {['Applied Combinatorics', 'Design & Analysis-Algorithms', 'Objects & Design', 'Computer Organization & Programming', 'Data Structure & Algorithms', 'Intro-Object Orient Programming', 'Intro Discrete Math'].map((text, index) => (
+         {['Applied Combinatorics', 'Design & Analysis of Algorithms', 'Objects & Design', 'Computer Organization & Programming', 'Data Structure & Algorithms', 'Intro-Object Oriented Programming', 'Intro Discrete Math'].map((text, index) => (
         <ListItem key={index} sx={{ paddingTop: 0, paddingBottom: 0 }}>
         <ListItemText primary={text} />
       </ListItem>

@@ -42,21 +42,21 @@ const Rocklands = () => {
         eight weeks.
         </Typography>
         <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', my: 2 }}>
-  <Box sx={{ maxWidth: '33%', maxHeight: '300px', p: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  <Box sx={{ maxWidth: '33%', maxHeight: '500px', p: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
     <img 
       alt="Room1"
       src={assets.images.room1}
       style={{ maxWidth: '100%', maxHeight: '100%', height: 'auto', width: 'auto', objectFit: 'contain' }} 
     />
   </Box>
-  <Box sx={{ maxWidth: '33%', maxHeight: '300px', p: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  <Box sx={{ maxWidth: '33%', maxHeight: '500px', p: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
     <img 
       alt="Room2"
       src={assets.images.room2}
       style={{ maxWidth: '100%', maxHeight: '100%', height: 'auto', width: 'auto', objectFit: 'contain' }} 
     />
   </Box>
-  <Box sx={{ maxWidth: '33%', maxHeight: '300px', p: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  <Box sx={{ maxWidth: '33%', maxHeight: '500px', p: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
     <img 
       alt="Room3"
       src={assets.images.room3}
